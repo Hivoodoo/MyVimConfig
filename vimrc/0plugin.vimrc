@@ -32,6 +32,16 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " YCM
 Plugin 'Valloric/YouCompleteMe'
 
+" tag
+Plugin 'majutsushi/tagbar'
+
+" nerdtree
+Plugin 'scrooloose/nerdtree'
+
+" syntastic
+Plugin 'scrooloose/syntastic'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

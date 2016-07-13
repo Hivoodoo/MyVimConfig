@@ -1,8 +1,6 @@
 " Switch style of line number
 function! NumberSwitch()
     if(&number || &relativenumber)
-        echo &number
-        echo &relativenumber
         if(&relativenumber)
             set norelativenumber
         else
