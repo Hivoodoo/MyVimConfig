@@ -39,7 +39,10 @@ Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdtree'
 
 " syntastic
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
+
+" google style
+Plugin 'google.vim'
 
 
 " All of your Plugins must be added before the following line
