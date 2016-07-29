@@ -99,6 +99,5 @@ function! SwitchBuffer()
   if(num =~ '\D')
     return
   endif
-  buffer eval(num)
+  execute ":buffer ". num
 endfunction
-
