@@ -16,13 +16,18 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
-" Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+"
+" " Git plugin not hosted on GitHub
+" Plugin 'git://git.wincent.com/command-t.git'
+"
 " " git repos on your local machine (i.e. when working on your own plugin)
 " Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
+
+" this plug is for HTML
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
 " " Install L9 and avoid a Naming conflict if you've already installed a
 " " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
@@ -39,7 +44,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdtree'
 
 " syntastic
-" Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
 " google style
 Plugin 'google.vim'

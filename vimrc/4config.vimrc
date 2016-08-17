@@ -12,5 +12,5 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " set ycm configuration
-let g:ycm_global_ycm_extra_conf='/home/voodoo/.vim/others/.ycm_extra_conf.py' 
+let g:ycm_global_ycm_extra_conf='/home/voodoo/.vim/bin/ycm_extra_conf.py' 
 
