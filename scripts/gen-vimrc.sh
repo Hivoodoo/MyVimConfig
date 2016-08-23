@@ -1,4 +1,3 @@
-#!/bin/bash
 VIM_HOME=${HOME}/.vim
 VIMRC_DIR=${VIM_HOME}/vimrc/
 cd ${VIM_HOME}/scripts

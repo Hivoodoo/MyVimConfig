@@ -1,4 +1,3 @@
-#!/bin/bash
 # Install Plugin
 vim +PluginInstall +qall
 # YCM
