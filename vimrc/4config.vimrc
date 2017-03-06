@@ -1,3 +1,14 @@
+" activates filetype detection
+filetype plugin indent on
+
+" activates syntax highlighting among other things
+syntax on
+
+" allows you to deal with multiple unsaved
+" buffers simultaneously without resorting
+" to misusing tabs
+set hidden
+
 " start with relative number
 call NumberToggle()
 
@@ -21,8 +32,14 @@ match WhitespaceEOL /\s\+$/
 " c-support home
 let g:C_CustomTemplateFile = '/home/dante/.vim/templates/Templates'
 
+" Hightlight end of line whitespace.
+highlight WhitespaceEOL ctermbg=red guibg=red
+match WhitespaceEOL /\s\+$/
+
 " ctrlp
 " set key
 let g:ctrlp_map = '<c-i>'
 " Ignore files in .gitignore
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+" Start with TagMode
+let g:ctrlp_cmd = 'CtrlPTag'
