@@ -14,3 +14,15 @@ let g:syntastic_check_on_wq = 0
 " set ycm configuration
 let g:ycm_global_ycm_extra_conf='/home/voodoo/.vim/bin/ycm_extra_conf.py' 
 
+" ending space
+highlight WhitespaceEOL ctermbg=red guibg=red
+match WhitespaceEOL /\s\+$/
+
+" c-support home
+let g:C_CustomTemplateFile = '/home/dante/.vim/templates/Templates'
+
+" ctrlp
+" set key
+let g:ctrlp_map = '<c-i>'
+" Ignore files in .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']

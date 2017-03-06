@@ -6,4 +6,5 @@ autocmd InsertLeave * call NumberSwitch()
 autocmd BufNewFile,BufRead * call SetIndent()
 
 " set focus
-autocmd! CursorMoved * normal zz
+call SetFocus()
+let g:ctrlp_buffer_func = { 'enter': 'SetNoFocus', 'exit':  'SetFocus'}

@@ -101,3 +101,11 @@ function! SwitchBuffer()
   endif
   execute ":buffer ". num
 endfunction
+
+function! SetNoFocus()
+    autocmd! CursorMoved *
+endfunction
+
+function! SetFocus()
+    autocmd CursorMoved * normal zz
+endfunction
