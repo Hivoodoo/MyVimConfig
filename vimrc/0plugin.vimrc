@@ -50,6 +50,9 @@ Plugin 'WolfgangMehner/c-support'
 " CtrlP
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" a.vim
+Plugin 'vim-scripts/a.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
