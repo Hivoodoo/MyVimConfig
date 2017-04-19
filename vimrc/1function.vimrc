@@ -87,7 +87,9 @@ function! SetIndent()
     set cindent
     set cinoptions=h1,l1,g1,t0,i4,+4,(0,w1,W4
 
-    set indentexpr=GoogleCppIndent()
+    if &filetype=="cpp" || &filetype=="c"
+      set indentexpr=GoogleCppIndent()
+    endif
 
     let b:undo_indent = "setl sw< ts< sts< et< tw< wrap< cin< cino< inde<"
   endif

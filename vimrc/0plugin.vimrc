@@ -53,6 +53,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " a.vim
 " Plugin 'vim-scripts/a.vim'
 
+" vimwiki
+Plugin 'vimwiki/vimwiki'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
