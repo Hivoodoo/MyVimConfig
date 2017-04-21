@@ -51,7 +51,7 @@ Plugin 'WolfgangMehner/c-support'
 Plugin 'ctrlpvim/ctrlp.vim'
 
 " a.vim
-" Plugin 'vim-scripts/a.vim'
+Plugin 'vim-scripts/a.vim'
 
 " vimwiki
 Plugin 'vimwiki/vimwiki'
