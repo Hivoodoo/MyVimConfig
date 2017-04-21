@@ -40,6 +40,7 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 " Start with TagMode
 " let g:ctrlp_cmd = 'CtrlPTag'
 let g:ctrlp_cmd = 'CtrlP'
+set nocscopetag
 
 set hls
 
