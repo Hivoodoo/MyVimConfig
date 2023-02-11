@@ -55,6 +55,7 @@ Plugin 'vim-scripts/a.vim'
 
 " vimwiki
 Plugin 'vimwiki/vimwiki'
+map glt :VimwikiToggleListItem<CR>
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

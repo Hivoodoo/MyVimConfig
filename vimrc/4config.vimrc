@@ -46,3 +46,6 @@ set hls
 
 """ vim wiki
 let g:vimwiki_folding = 'list'
+
+"""
+set rtp+=/Users/talos/go/src/golang.org/x/lint/misc/vim

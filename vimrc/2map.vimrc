@@ -179,3 +179,6 @@ if has("cscope")
     "set ttimeoutlen=100
 
 endif
+
+" find
+map <C-_> :let @/ = expand("<cword>")<CR>
